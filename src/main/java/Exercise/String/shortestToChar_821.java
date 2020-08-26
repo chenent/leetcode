@@ -2,7 +2,7 @@ package Exercise.String;
 
 import java.util.Arrays;
 
-public class short_821 {
+public class shortestToChar_821 {
     public int[] shortestToChar(String S, char C) {
         int[] res = new int[S.length()];
         Arrays.fill(res, Integer.MAX_VALUE);
@@ -30,7 +30,7 @@ public class short_821 {
     public static void main(String[] args) {
         String S = "iloveleetcode";
         char C = 'e';
-        int[] array = new short_821().shortestToChar(S, C);
+        int[] array = new shortestToChar_821().shortestToChar(S, C);
         for (int i : array) {
             System.out.print(i + ",");
         }
